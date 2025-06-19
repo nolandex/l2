@@ -1,12 +1,11 @@
 import { SiteConfig } from "@/types/siteConfig";
-// PERUBAHAN: Import icon disesuaikan untuk header dan footer
 import { 
   BsInstagram, 
   BsTiktok, 
   BsFacebook, 
   BsWhatsapp 
 } from "react-icons/bs";
-import { MdEmail } from "react-icons/md"; // Menambahkan kembali icon email
+import { MdEmail } from "react-icons/md";
 
 const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
 
@@ -38,16 +37,15 @@ const baseSiteConfig = {
   },
   headerLinks: [
     { name: 'whatsapp', href: "https://api.whatsapp.com/send/?phone=6285156779923", icon: BsWhatsapp },
-    { name: 'email', href: "mailto:kontak@bisnovo.com", icon: MdEmail }, // GANTI email ini jika perlu
+    { name: 'email', href: "mailto:bisnovohq@gmail.com", icon: MdEmail }, // Updated email
     { name: 'instagram', href: "https://www.instagram.com/bisnovo", icon: BsInstagram }
   ],
-  // PERUBAHAN: Menambahkan email ke daftar footerLinks
   footerLinks: [
     { name: 'instagram', href: "https://www.instagram.com/bisnovo", icon: BsInstagram },
     { name: 'tiktok', href: "https://www.tiktok.com/@bisnovo", icon: BsTiktok },
     { name: 'facebook', href: "https://www.facebook.com/share/1H87XB9aw7/", icon: BsFacebook },
     { name: 'whatsapp', href: "https://api.whatsapp.com/send/?phone=6285156779923", icon: BsWhatsapp },
-    { name: 'email', href: "mailto:kontak@bisnovo.com", icon: MdEmail },
+    { name: 'email', href: "mailto:bisnovohq@gmail.com", icon: MdEmail }, // Updated email
   ],
   footerProducts: []
 }
