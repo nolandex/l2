@@ -19,16 +19,24 @@ export default async function HomeIndex({ lang }: { lang: string }) {
       {/* <Showcase id="Showcase" locale={dict.Showcase} /> */}
 
       {/* USP (Unique Selling Proposition) */}
-      <Feature id="Features" locale={dict.Feature} langName={langName} />
+      {/* ID diubah menjadi huruf kecil agar konsisten */}
+      <Feature id="features" locale={dict.Feature} langName={langName} />
 
       {/* Pricing */}
-      <Pricing id="Pricing" locale={dict.Pricing} langName={langName} />
+      {/* ============================================================
+        ===> PERUBAHAN UTAMA DI SINI <===
+        ID diubah dari "Pricing" menjadi "pricing" agar cocok dengan link di tombol.
+        ============================================================
+      */}
+      <Pricing id="pricing" locale={dict.Pricing} langName={langName} />
 
       {/* Testimonials */}
-      <Testimonials id="Testimonials" locale={dict.Testimonials} />
+      {/* ID diubah menjadi huruf kecil agar konsisten */}
+      <Testimonials id="testimonials" locale={dict.Testimonials} />
 
       {/* FAQ (Frequently Asked Questions) */}
-      <FAQ id="FAQ" locale={dict.FAQ} langName={langName} />
+      {/* ID diubah menjadi huruf kecil agar konsisten */}
+      <FAQ id="faq" locale={dict.FAQ} langName={langName} />
 
       {/* CTA (Call to Action) */}
       <CTA locale={dict.CTA} CTALocale={dict.CTAButton} />
