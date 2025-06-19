@@ -74,9 +74,9 @@ const Header = () => {
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp"
             title="Chat on WhatsApp"
-            className="text-green-500 hover:text-green-700 transition-colors duration-200"
+            className="text-blue-500 hover:text-blue-700 transition-colors duration-200"
           >
-            <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+            <FontAwesomeIcon icon={faWhatsapp} size="2x" />
           </Link>
           <LangSwitcher />
         </div>
@@ -89,9 +89,9 @@ const Header = () => {
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp"
             title="Chat on WhatsApp"
-            className="text-green-500 hover:text-green-700 transition-colors duration-200"
+            className="text-blue-500 hover:text-blue-700 transition-colors duration-200"
           >
-            <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+            <FontAwesomeIcon icon={faWhatsapp} size="2x" />
           </Link>
           <button
             aria-label="Open Menu"
@@ -150,9 +150,9 @@ const Header = () => {
                   rel="noopener noreferrer"
                   aria-label="Chat on WhatsApp"
                   title="Chat on WhatsApp"
-                  className="text-green-500 hover:text-green-700 transition-colors duration-200"
+                  className="text-blue-500 hover:text-blue-700 transition-colors duration-200"
                 >
-                  <FontAwesomeIcon icon={faWhatsapp} size="lg" />
+                  <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                 </Link>
                 <LangSwitcher />
               </div>
