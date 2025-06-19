@@ -12,7 +12,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const links = [
   { label: "Features", href: "#Features" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Pricing", href: "#Pricing" },
   { label: "Testimonials", href: "#Testimonials" },
   { label: "FAQ", href: "#FAQ" },
 ];
@@ -144,16 +144,6 @@ const Header = () => {
               </nav>
               <div className="pt-4 flex items-center justify-between gap-x-4">
                 <HeaderLinks />
-                <Link
-                  href="https://wa.me/6285156779923"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Chat on WhatsApp"
-                  title="Chat on WhatsApp"
-                  className="text-blue-500 hover:text-blue-700 transition-colors duration-200"
-                >
-                  <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-                </Link>
                 <LangSwitcher />
               </div>
             </div>
