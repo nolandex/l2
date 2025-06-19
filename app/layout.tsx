@@ -49,11 +49,14 @@ export default async function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme={siteConfig.nextThemeColor}
-          enableSystem
-        >
+        {/*
+          ===================================================================
+          ===> PERUBAHAN DI SINI <===
+          Properti 'defaultTheme' dan 'enableSystem' dihapus.
+          Diganti dengan 'forcedTheme="light"' untuk mengunci mode terang.
+          ===================================================================
+        */}
+        <ThemeProvider attribute="class" forcedTheme="light">
           <Header />
           <main className="flex flex-col items-center py-6">{children}</main>
           <Footer />
