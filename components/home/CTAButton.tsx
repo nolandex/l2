@@ -4,11 +4,9 @@ import Link from "next/link";
 
 const CTAButton = ({ locale }: { locale: any }) => {
   return (
-    <Link
-      href="https://github.com/weijunext/landing-page-boilerplate"
-      target="_blank"
-      rel="noopener noreferrer nofollow"
-    >
+    // Mengubah href untuk menargetkan ID section "pricing"
+    // Menghapus target dan rel karena ini adalah link internal
+    <Link href="#pricing">
       <Button
         variant="default"
         className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white"
