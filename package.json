@@ -39,7 +39,8 @@
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@fortawesome/free-solid-svg-icons": "^6.6.0"
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0" // Added this line
   },
   "devDependencies": {
     "@types/negotiator": "^0.6.3",
