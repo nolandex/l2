@@ -71,7 +71,7 @@ export const TIERS_ZH: Array<Tier> = [
       "3 Video promosi", // Diperbarui
       "SEO tingkat lanjut",
     ],
-    buttonText: "Hubungi Kami",
+    buttonText: "Bayar",
     buttonColor: "default",
     buttonVariant: "flat",
   },
