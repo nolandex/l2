@@ -1,27 +1,22 @@
 import { SiteConfig } from "@/types/siteConfig";
-import { 
-  BsInstagram, 
-  BsTiktok, 
-  BsFacebook, 
-  BsWhatsapp 
-} from "react-icons/bs";
+import { BsInstagram, BsTiktok, BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
-const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
+const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate';
 
 const baseSiteConfig = {
   name: "Bisnovo",
   description:
     "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
-  url: "https://www.bisnovo.com",
-  ogImage: "https://www.bisnovo.com/og.png",
+  url: "https://bisnovo.my.id", // Diperbarui dari bisnovo.com
+  ogImage: "https://bisnovo.my.id/og.png", // Diperbarui dari bisnovo.com
   metadataBase: '/',
   keywords: ["bisnis online", "jasa pembuatan website", "landing page", "bisnovo"],
   authors: [
     {
       name: "Bisnovo",
       url: "https://www.instagram.com/bisnovo",
-    }
+    },
   ],
   creator: '@bisnovo',
   openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
@@ -37,18 +32,18 @@ const baseSiteConfig = {
   },
   headerLinks: [
     { name: 'whatsapp', href: "https://api.whatsapp.com/send/?phone=6285156779923", icon: BsWhatsapp },
-    { name: 'email', href: "mailto:bisnovohq@gmail.com", icon: MdEmail }, // Updated email
-    { name: 'instagram', href: "https://www.instagram.com/bisnovo", icon: BsInstagram }
+    { name: 'email', href: "mailto:bisnovohq@gmail.com", icon: MdEmail }, // Diperbarui dari kontak@bisnovo.com
+    { name: 'instagram', href: "https://www.instagram.com/bisnovo", icon: BsInstagram },
   ],
   footerLinks: [
     { name: 'instagram', href: "https://www.instagram.com/bisnovo", icon: BsInstagram },
     { name: 'tiktok', href: "https://www.tiktok.com/@bisnovo", icon: BsTiktok },
     { name: 'facebook', href: "https://www.facebook.com/share/1H87XB9aw7/", icon: BsFacebook },
     { name: 'whatsapp', href: "https://api.whatsapp.com/send/?phone=6285156779923", icon: BsWhatsapp },
-    { name: 'email', href: "mailto:bisnovohq@gmail.com", icon: MdEmail }, // Updated email
+    { name: 'email', href: "mailto:bisnovohq@gmail.com", icon: MdEmail }, // Diperbarui dari kontak@bisnovo.com
   ],
-  footerProducts: []
-}
+  footerProducts: [],
+};
 
 export const siteConfig: SiteConfig = {
   ...baseSiteConfig,
@@ -69,4 +64,4 @@ export const siteConfig: SiteConfig = {
     images: [`${baseSiteConfig.url}/og.png`],
     creator: baseSiteConfig.creator,
   },
-}
+};
