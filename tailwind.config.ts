@@ -2,7 +2,7 @@ import { nextui } from "@nextui-org/react";
 import type { Config } from "tailwindcss";
 
 const config = {
-  darkMode: "class",
+  // Properti `darkMode: "class"` telah dihapus untuk menonaktifkan mode gelap.
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -26,10 +26,6 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        // primary: {
-        //   DEFAULT: "hsl(var(--primary))",
-        //   foreground: "hsl(var(--primary-foreground))",
-        // },
         primary: {
           foreground: "#FFFFFF",
           DEFAULT: "#3B82F6",
